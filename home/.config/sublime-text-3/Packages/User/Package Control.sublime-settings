@@ -1,0 +1,18 @@
+{
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"Better CoffeeScript",
+		"EditorConfig",
+		"Handlebars",
+		"LESS",
+		"Package Control",
+		"Sass",
+		"SublimeLinter",
+		"SublimeLinter-coffee",
+		"SublimeLinter-jscs",
+		"SublimeLinter-jshint"
+	]
+}
