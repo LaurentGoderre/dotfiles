@@ -1,5 +1,5 @@
 {
-	"color_scheme": "Packages/User/SublimeLinter/Monokai (SL).tmTheme",
+	"color_scheme": "Packages/User/SublimeLinter/predawn (SL).tmTheme",
 	"ensure_newline_at_eof_on_save": false,
 	"hot_exit": false,
 	"ignored_packages":
@@ -8,5 +8,6 @@
 	],
 	"remember_open_files": false,
 	"save_on_focus_lost": false,
+	"theme": "predawn.sublime-theme",
 	"trim_trailing_white_space_on_save": false
 }
