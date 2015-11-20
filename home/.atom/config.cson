@@ -1,0 +1,21 @@
+"*":
+  "exception-reporting":
+    userId: "3a52898a-e557-7b38-8128-91167efca032"
+  welcome:
+    showOnStartup: false
+  core:
+    themes: [
+      "atom-dark-ui"
+      "one-dark-syntax"
+    ]
+    disabledPackages: [
+      "linter-pylint"
+    ]
+  editor:
+    invisibles: {}
+    fontSize: 10
+    tabLength: 4
+  platomformio: {}
+  "linter-pylint": {}
+  "linter-jscs": {}
+  tablr: {}
