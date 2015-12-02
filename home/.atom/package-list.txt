@@ -1,3 +1,4 @@
+atom-beautify@0.28.19
 atom-handlebars@1.2.0
 editorconfig@1.2.2
 language-arduino@0.3.1

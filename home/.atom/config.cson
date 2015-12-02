@@ -19,3 +19,11 @@
   "linter-pylint": {}
   "linter-jscs": {}
   tablr: {}
+  "atom-beautify":
+    _analyticsUserId: "a0f76700-4a95-451e-bf41-80330dded42a"
+    css_no_lead_zero: true
+    css_newline_between_rules: true
+    css_selector_separator_newline: true
+    html_end_with_newline: true
+    html_max_preserve_newlines: 1
+    html_preserve_newlines: false
