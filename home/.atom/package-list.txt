@@ -1,18 +1,19 @@
 atom-beautify@0.28.19
 atom-handlebars@1.2.0
 editorconfig@1.2.2
-language-arduino@0.3.1
-linter@1.10.0
+file-type-icons@0.7.4
+language-arduino@0.4.1
+linter@1.11.3
 linter-coffeescript@1.0.0
 linter-csslint@1.1.0
-linter-gcc@0.3.9
+linter-gcc@0.5.0
 linter-jscs@3.2.0
 linter-jshint@1.2.1
 linter-markdown@1.2.1
-linter-pylint@1.0.3
+linter-pylint@1.2.0
 linter-scss-lint@2.4.0
 minimap-git-diff@4.1.8
 minimap-linter@1.0.0
 platomformio@0.6.1
-tablr@0.7.0
+tablr@0.9.0
 
