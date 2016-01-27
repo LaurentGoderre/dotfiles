@@ -17,7 +17,6 @@
     tabLength: 4
   platomformio: {}
   "linter-pylint": {}
-  "linter-jscs": {}
   tablr: {}
   "atom-beautify":
     _analyticsUserId: "a0f76700-4a95-451e-bf41-80330dded42a"
@@ -27,3 +26,5 @@
     html_end_with_newline: true
     html_max_preserve_newlines: 1
     html_preserve_newlines: false
+  linter: {}
+  "linter-gcc": {}
