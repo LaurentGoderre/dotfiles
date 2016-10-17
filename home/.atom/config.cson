@@ -4,15 +4,13 @@
     css_newline_between_rules: true
     css_no_lead_zero: true
     css_selector_separator_newline: true
-    general:
-      _analyticsUserId: "a1685a73-2410-453b-8b4c-833bb734d19d"
     html_end_with_newline: true
     html_max_preserve_newlines: 1
     html_preserve_newlines: false
   core:
     themes: [
       "atom-dark-ui"
-      "one-dark-syntax"
+      "monokai"
     ]
   editor:
     fontSize: 10
@@ -24,6 +22,8 @@
   "linter-gcc": {}
   "linter-pylint": {}
   platomformio: {}
+  "split-diff":
+    ignoreWhitespace: true
   tablr: {}
   welcome:
     showOnStartup: false
