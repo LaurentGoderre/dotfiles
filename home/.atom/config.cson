@@ -8,6 +8,12 @@
     html_max_preserve_newlines: 1
     html_preserve_newlines: false
   core:
+    disabledPackages: [
+      "linter-jscs"
+      "linter-jshint"
+      "whitespace"
+    ]
+    telemetryConsent: "limited"
     themes: [
       "atom-dark-ui"
       "monokai"
