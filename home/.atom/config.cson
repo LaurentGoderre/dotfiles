@@ -24,7 +24,8 @@
     tabLength: 4
   "exception-reporting":
     userId: "3a52898a-e557-7b38-8128-91167efca032"
-  linter: {}
+  linter:
+    errorPanelHeight: 242
   "linter-gcc": {}
   "linter-pylint": {}
   platomformio: {}

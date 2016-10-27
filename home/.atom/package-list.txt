@@ -14,7 +14,7 @@ linter-jscs@4.1.0
 linter-jshint@3.0.1
 linter-markdown@3.0.2
 linter-pylint@1.2.2
-linter-scss-lint@3.0.4
+linter-sass-lint@1.7.1
 merge-conflicts@1.4.4
 minimap-git-diff@4.3.1
 minimap-linter@1.6.0
