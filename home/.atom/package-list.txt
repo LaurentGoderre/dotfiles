@@ -4,10 +4,12 @@ color-picker
 editorconfig
 file-type-icons
 language-arduino
+language-docker
 language-ini
 linter
 linter-coffeescript
 linter-csslint
+linter-docker
 linter-eslint
 linter-gcc
 linter-jscs

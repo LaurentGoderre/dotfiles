@@ -8,10 +8,10 @@
     html_max_preserve_newlines: 1
     html_preserve_newlines: false
   core:
+    audioBeep: false
     disabledPackages: [
       "linter-jscs"
       "linter-jshint"
-      "whitespace"
     ]
     telemetryConsent: "limited"
     themes: [
@@ -34,3 +34,6 @@
   tablr: {}
   welcome:
     showOnStartup: false
+".editorconfig.source":
+  editor:
+    tabLength: 4
