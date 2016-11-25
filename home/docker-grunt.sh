@@ -9,4 +9,4 @@ docker run \
     -e HTTP_PROXY=$HTTP_PROXY \
     -e HTTPS_PROXY=$HTTPS_PROXY \
     digitallyseamless/nodejs-bower-grunt \
-    bash
+    "$@"
