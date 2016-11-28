@@ -1,7 +1,7 @@
 docker run \
-    --net=host \
     -it --rm \
     -v "$(pwd)":/data \
+    -p 8000:8000 \
     -v $HOME/.gitconfig:/root/.gitconfig \
     -v $HOME/.npmrc:/root/.npmrc \
     -e http_proxy=$http_proxy \
