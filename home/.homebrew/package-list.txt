@@ -1,0 +1,12 @@
+bash
+bash-completion
+homebrew/php/composer
+coreutils
+gdbm
+geos
+git
+homeshick
+homebrew/php/php70
+pkg-config
+postgresql
+sqlite
