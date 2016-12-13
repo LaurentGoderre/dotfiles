@@ -10,6 +10,7 @@ linter
 linter-coffeescript
 linter-csslint
 linter-docker
+linter-drupalcs
 linter-eslint
 linter-gcc
 linter-jscs
