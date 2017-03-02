@@ -1,0 +1,29 @@
+#! /bin/sh
+atom_root=$HOME/.atom
+packages_file=package-list.txt
+profile=default
+
+while getopts ":p:" optname
+  do
+    case "$optname" in
+      "p")
+        profile=$OPTARG
+				break
+        ;;
+    esac
+  done
+
+if [ ! -d $atom_root/$profile ]; then
+	profile=default
+fi
+
+echo "Using profile $profile"
+export ATOM_HOME="$atom_root/$profile"
+
+# Install packages if missing
+packages=$(apm list --installed -b)
+if [ -z "$packages" ]; then
+	apm install --packages-file $ATOM_HOME/$packages_file
+fi
+
+\atom $@

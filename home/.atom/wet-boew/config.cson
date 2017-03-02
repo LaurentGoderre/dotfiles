@@ -1,0 +1,14 @@
+"*":
+  core:
+    telemetryConsent: "limited"
+    themes: [
+      "atom-dark-ui"
+      "monokai"
+    ]
+  editor:
+    softTabs: false
+  "exception-reporting":
+    userId: "28a23b26-0214-7102-6b10-18550a2062ab"
+  welcome:
+    showOnStartup: false
+

@@ -1,0 +1,16 @@
+atom-beautify
+color-picker
+editorconfig
+file-type-icons
+language-docker
+language-ini
+linter
+linter-docker
+linter-drupalcs
+linter-markdown
+merge-conflicts
+minimap-git-diff
+minimap-linter
+monokai
+split-diff
+tablr
