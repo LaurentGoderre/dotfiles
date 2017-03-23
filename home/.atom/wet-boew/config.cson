@@ -1,4 +1,7 @@
 "*":
+  "atom-beautify":
+    general:
+      _analyticsUserId: "c631d5c5-432b-46ea-b03e-b8b5ca37dd13"
   core:
     telemetryConsent: "limited"
     themes: [
@@ -6,9 +9,9 @@
       "monokai"
     ]
   editor:
+    fontSize: 10
     softTabs: false
   "exception-reporting":
     userId: "28a23b26-0214-7102-6b10-18550a2062ab"
   welcome:
     showOnStartup: false
-

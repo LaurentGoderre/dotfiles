@@ -5,8 +5,9 @@
       "atom-dark-ui"
       "monokai"
     ]
+  editor:
+    fontSize: 10
   "exception-reporting":
     userId: "28a23b26-0214-7102-6b10-18550a2062ab"
   welcome:
     showOnStartup: false
-
