@@ -1,0 +1,17 @@
+#!/bin/bash
+if [ $(git rev-parse --abbrev-ref HEAD) = "master" ]; then
+	cp -r lib lib2
+	git checkout -f pages
+	cp -r lib2/* lib
+	if [[ -z $(git status lib | grep -o "nothing to commit") ]]; then
+		# Update the libraries
+		git add lib
+		git commit --amend --no-edit
+	fi;
+	git rebase master
+	git push -f origin pages
+	git checkout master
+	mv lib2 lib
+else
+	echo "Not in master!"
+fi;
